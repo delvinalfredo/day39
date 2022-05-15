@@ -1,20 +1,10 @@
-# Merchant Service
+# Jest Test
 
-An experiment of a merchant service
+An experiment of a Date Test
 
 ## Features
 Expose several APIs that do these functions.
 
-### Merchant
-1. Register and delete account
-2. Login
-
-### Product
-1. Get list of products
-2. Get a product
-3. Add a new product
-4. Update product
-5. Delete product
 
 ## How to Install
 ```
@@ -23,7 +13,7 @@ npm install
 
 ## How to Run
 ```
-npm run dev
+npm test
 ```
 
 ## Architecture
