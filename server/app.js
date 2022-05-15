@@ -6,7 +6,6 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/is-21-century', mathHandlers.is21Century);
 app.post('/is-weekend', mathHandlers.isWeekend);
 app.post('/is-leap-year', mathHandlers.isLeapYear);
 

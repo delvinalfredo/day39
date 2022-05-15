@@ -1,17 +1,12 @@
-function is21Century() {
-    return new Date().getFullYear() >= 2000 && new Date().getFullYear() < 2100;
-}
-
 function isWeekend() {
     return new Date().getDay()
 }
 
-function isLeapYear() {
-
+function isLeapYear(year) {
+    return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
 }
 
 module.exports = {
-    is21Century,
     isWeekend,
     isLeapYear,
 };
